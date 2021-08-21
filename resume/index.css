@@ -1,0 +1,67 @@
+html,body {
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+i {
+    font-size: 30px;
+    margin-right: 5px ;
+    padding: 10px;
+}
+
+.container{
+    background-color: rgb(250, 250, 242);
+    display: flex;
+    justify-content: center;
+}
+
+.document{
+    width: 85%;
+    background-color: white;
+}
+.header-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.obj-head{
+    background-color: gray;
+}
+
+.edu-head{
+    background-color: gray;
+}
+
+.skills-head{
+    background-color: gray;
+}
+
+.exp-head{
+    background-color: gray;
+}
+
+.ref-head{
+    background-color: gray;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
